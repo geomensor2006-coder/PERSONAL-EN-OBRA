@@ -1,0 +1,40 @@
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 15px;
+}
+
+.header, .footer {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 16px;
+  margin: 10px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 10px;
+  }
+  .header, .footer {
+    padding: 10px;
+  }
+  .card {
+    padding: 10px;
+    margin: 5px 0;
+  }
+}
+
+@media (min-width: 769px) {
+  .card {
+    transition: transform 0.2s;
+  }
+  .card:hover {
+    transform: scale(1.05);
+  }
+}
