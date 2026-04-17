@@ -1,0 +1,10 @@
+# Node.js
+
+# Dependency directories
+node_modules/
+
+# Local environment variables
+.env
+
+# Build output
+/build/
