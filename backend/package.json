@@ -1,0 +1,1 @@
+{"name": "personal-en-obra","version": "1.0.0","description": "A Node.js Express server for Personal project","main": "index.js","scripts": {"start": "node index.js"},"dependencies": {"express": "^4.17.1"},"devDependencies": {},"author": "geomensor2006-coder","license": "ISC"}
